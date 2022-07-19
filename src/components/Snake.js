@@ -25,7 +25,7 @@ function Snake() {
               return (
                 i === snake.length-1 ? 
                 <img key={i} src={snakeHead} style={style} className={`absolute w-[5%] h-[5%] ${rotate}`} alt="snake"/> :
-                <div key={i} style={style} className="absolute w-[5%] h-[5%] border-2 border-black bg-[#8dc63f] rounded-lg"></div>
+                <div key={i} style={style} className="absolute w-[5%] h-[5%] border-2 border-[#414042] bg-[#8dc63f] rounded-lg"></div>
               );
           })
         }
